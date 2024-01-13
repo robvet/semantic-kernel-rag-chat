@@ -300,7 +300,7 @@ Before you get started, make sure you have the following additional requirements
 1. Open a terminal window, change to the directory with your project file (e.g., `semantic-kernel-rag-chat/src/myfunc`), 
    and run the `dotnet` command below to add the Semantic Kernel Qdrant Memory Store to your project.
     ```bash
-    dotnet add package Microsoft.SemanticKernel.Connectors.Memory.Qdrant --prerelease -v 0.14.547.1-preview
+    dotnet add package Microsoft.SemanticKernel.Connectors.Memory.Qdrant -v 0.14.547.1-preview
     ```
 
 1. Open your Program code file (e.g., `Program.cs`) and add the Qdrant memory store using statement to the top.
